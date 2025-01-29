@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Sriracha&display=swap');
+
+:root {
+  --primary-color: #004d39;
+  --secondary-color: #0f8164;
+  --tertiary-color: #1ab28b;
+  --accent1-color: #e68424;
+  --accent2-color: #f1592a;
+  --accent3-color: #4a2e15;
+  --accent4-color: #3b2313;
+  --background-color: #ffffff;
+
+  --heading-font: 'Lily Script One', 'Times New Roman', serif;
+  --paragraph-font: 'Sriracha', 'Comic Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #3b2313;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.title h1{
+  color:#1ab28b;
+  font-family: 'Lily Script One', 'Times New Roman', serif;
+  font-size: 4em;
+  line-height: 0%;
+  padding-top: 5px;
+}
+nav a:hover{
+  color: white;
+}
+nav a{
+  text-align: center;
+  color: #e68424;
+  text-decoration: none;
+  padding: 15px;
+  align-self: center;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.normal {
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  color: #0f8164;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.examples img {
+  width: 300px;
+  outline: solid;
+  outline-color: #f1592a;
+  outline-width: 5px;
+}
+.examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 25px;
+  gap: 25px;
+}
+.preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #4a2e15;
+  padding-top: 25px;
+}
+.preview p {
+  color: #1ab28b;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+}
+
+footer{
+  background-color: #3b2313;
+  padding: 25px 50px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a{
+  color: #e68424;
+  text-decoration: none;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+}
+footer a:hover{
+  color: white;
+  text-decoration: none;
+}

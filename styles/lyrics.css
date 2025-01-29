@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Sriracha&display=swap');
+
+:root {
+  --primary-color: #004d39;
+  --secondary-color: #0f8164;
+  --tertiary-color: #1ab28b;
+  --accent1-color: #e68424;
+  --accent2-color: #f1592a;
+  --accent3-color: #4a2e15;
+  --accent4-color: #3b2313;
+  --background-color: #ffffff;
+
+  --heading-font: 'Lily Script One', 'Times New Roman', serif;
+  --paragraph-font: 'Sriracha', 'Comic Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b2313;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.title h1 {
+  color:#1ab28b;
+  font-family: 'Lily Script One', 'Times New Roman', serif;
+  font-size: 4em;
+  line-height: 0%;
+  padding-top: 5px;
+}
+nav a:hover {
+  color: white;
+}
+nav a {
+  text-align: center;
+  color: #e68424;
+  text-decoration: none;
+  padding: 15px;
+  align-self: center;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.explain {
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  color: #0f8164;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.1em;
+}
+h2 {
+  text-align: center;
+  color:#004d39;
+  font-family: 'Lily Script One', 'Times New Roman', serif;
+  font-size: 2.25em;
+  line-height: 0%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid img {
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  outline: solid;
+  outline-color: #f1592a;
+  outline-width: 5px;
+  cursor: pointer;
+}
+.grid img:hover {
+  outline-color: #e68424;
+}
+
+.viewer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}
+.viewer button {
+  color: #ffffff;
+  position: fixed; 
+  top: 15px; 
+  right: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.viewer button:hover {
+  color: #e68424;
+}
+.text {
+  color: #0f8164;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+} 
+h5 {
+  color: #004d39;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 0;
+  margin-bottom: 0;
+}
+.content {
+  background-color: #ffffff;
+  overflow-y: scroll;
+  width: 1000px;
+}
+h4 {
+  background-color: #4a2e15;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 0;
+  color: #1ab28b;
+  font-family: 'Lily Script One', 'Times New Roman', serif;
+  font-size: 2.75em;
+  text-align: center;
+}
+.content a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #3b2313;
+  padding: 25px 50px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  color: #e68424;
+  text-decoration: none;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
